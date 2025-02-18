@@ -1,7 +1,12 @@
-function App() {
+import { RomanNumeralConverter } from "./components/RomanNumeralConverter"
+import { ThemeSwitcher } from "./components/ThemeToggle"
 
+function App() {
   return (
-    <h1 className="text-6xl text-red-500">HELLO WORLD</h1>
+    <div className="flex transition duration-300 items-center justify-center min-h-screen bg-zinc-100 relative dark:bg-zinc-900">
+      <RomanNumeralConverter />
+      <ThemeSwitcher />
+    </div>
   )
 }
 
