@@ -2,12 +2,14 @@ const express = require('express');
 const dotenv = require('dotenv');
 const { logger } = require('./logger');
 const { romanNumeralConverter } = require('./romanNumeralConverter');
+const cors = require("cors")
 
 // Load .env into process
 dotenv.config();
 
 // Initialize express application to utilize HTTP methods
 const app = express();
+app.use(cors());
 
 // Use .env PORT or default to 8080
 const port = process.env.PORT || 8080;
