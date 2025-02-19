@@ -1,5 +1,5 @@
-import { RomanNumeralConverter } from "./components/RomanNumeralConverter"
-import { ThemeSwitcher } from "./components/ThemeToggle"
+import { RomanNumeralConverter } from "./components/roman-numeral-converter"
+import { ThemeSwitcher } from "./components/theme-toggle"
 
 function App() {
   return (
