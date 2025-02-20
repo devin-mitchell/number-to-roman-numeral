@@ -125,10 +125,8 @@ docker run --name roman-numeral -d -p 8080:8080 --env-file .env roman-numeral-ap
 
 ## Future Enhancements
 - Add rate limiting to prevent abuse.
+- Add e2e testing with Playwright.
+- Add a third theme based on OS preference.
 - Enhance monitoring with Prometheus/Grafana.
 - Deploy to a cloud provider (AWS/GCP) with CI/CD.
-
----
-This project follows best practices in software development, including clean code, proper error handling, and containerization for deployment.
-
 
