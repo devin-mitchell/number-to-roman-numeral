@@ -1,6 +1,6 @@
 # Roman Numeral Converter
 
-This project is a coding challenge for Adobe & GenStudio for Performance Marketing Engineering Test. It includes a backend service for converting integers to Roman numerals and a frontend React application for interacting with the API.
+This project is includes a backend service for converting integers to Roman numerals and a frontend React application for interacting with the API.
 
 ## Table of Contents
 - [Overview](#overview)
