@@ -1,6 +1,6 @@
 # Roman Numeral Converter
 
-This project is includes a backend service for converting integers to Roman numerals and a frontend React application for interacting with the API.
+This project includes a backend service for converting integers to Roman numerals and a frontend React application for interacting with the API.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,7 +8,6 @@ This project is includes a backend service for converting integers to Roman nume
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [API Specification](#api-specification)
-- [Testing](#testing)
 - [Error Handling](#error-handling)
 - [DevOps Considerations](#devops-considerations)
 - [Dockerization](#dockerization)
