@@ -37,3 +37,4 @@ app.listen(port, () => {
   logger.info(`Server running on http://localhost:${port}`);
 });
 
+module.exports = app;
