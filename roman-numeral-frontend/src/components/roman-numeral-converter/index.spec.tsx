@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, waitFor } from "@testing-library/react"
+import { render, fireEvent } from "@testing-library/react"
 import { beforeEach, describe, expect, it, vi } from "vitest"
 import { RomanNumeralConverter } from "."
 import userEvent from "@testing-library/user-event"

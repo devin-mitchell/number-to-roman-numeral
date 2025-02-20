@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+// Eventually we should put our domain in a .env file 
 const ROMAN_NUMERAL_URL = `http://localhost:8080/romannumeral`
 
 export function useFetchRomanNumeral() {

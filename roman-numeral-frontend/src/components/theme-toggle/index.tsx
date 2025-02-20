@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react"
 
 export function ThemeSwitcher() {
+  // Default to "light"  mode.
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || "light"
   )
 
+  // When the user changes themes, set/update the document class.
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark")
